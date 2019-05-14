@@ -20,4 +20,5 @@ def remove_strawberry(contacts)
       freddy_data.delete_if {|flavor| flavor == "strawberry"}
     end
   end
+  contacts
 end
