@@ -19,7 +19,7 @@ def remove_strawberry(contacts)
     if freddy_facts == :favorite_ice_cream_flavors
       freddy_data.each do |flavors|
         if flavors == "strawberry"
-          freddy_facts.delete(flavors)
+          freddy_data.delete(flavors)
         end
       end
     end
